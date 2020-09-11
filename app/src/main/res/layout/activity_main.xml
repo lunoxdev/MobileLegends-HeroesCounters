@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+    <ImageButton
+            android:background="@drawable/tankrole"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:onClick="TANK"
+            android:gravity="center"
+            tools:ignore="MissingConstraints"/>
+
+    <ImageButton
+            android:background="@drawable/assassinrole"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/assasinrole"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="0dp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+            android:layout_marginTop="10dp"/>
+
+    <ImageButton
+            android:background="@drawable/fighterrole"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/fighterrole"
+            android:gravity="center"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@+id/assasinrole"
+            android:layout_marginTop="10dp"/>
+
+    <ImageButton
+            android:background="@drawable/magerole"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/magerole"
+            android:gravity="center"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@+id/fighterrole"
+            android:layout_marginTop="10dp"/>
+
+    <ImageButton
+            android:background="@drawable/marksmanrole"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/marksmanrole"
+            android:gravity="center"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@+id/magerole"
+            android:layout_marginTop="10dp"/>
+
+    <ImageButton
+            android:background="@drawable/supportrole"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:id="@+id/supportrole"
+            android:gravity="center"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintTop_toBottomOf="@+id/marksmanrole"
+            android:layout_marginTop="10dp"/>
+
+</LinearLayout>
