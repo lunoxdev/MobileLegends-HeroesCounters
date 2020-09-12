@@ -43,7 +43,7 @@ public class activity_role_tank extends AppCompatActivity {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                //Here is where i change heroe counter information
+                //Here is where I change heroe counter information
                 String selectedName = names[i];
                 int selectedImage = images[i];
 

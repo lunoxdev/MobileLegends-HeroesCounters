@@ -21,7 +21,7 @@ public class activity_heroe_selected extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //Show activity name
-        ((TextView) findViewById(R.id.main_toolbar_title)).setText("HEROE INFORMATION");
+        ((TextView) findViewById(R.id.main_toolbar_title)).setText("BEST TEAMMATES");
 
         imageView = findViewById(R.id.imageView);
         textView = findViewById(R.id.tvName);
@@ -31,13 +31,17 @@ public class activity_heroe_selected extends AppCompatActivity {
 
         if(intent.getExtras() != null){
             String selectedName = intent.getStringExtra("name");
-            int selectedImage = intent.getIntExtra("image",0);
+            //int selectedImage = intent.getIntExtra("image",0);
 
-            textView.setText(selectedName);
-            imageView.setImageResource(selectedImage);
+            //Here I can control the image to show
+            if(selectedName.equals("Baxia")){
+                textView.setText(selectedName);
+                imageView.setImageResource(R.drawable.johnson);
+            }else if(selectedName.equals("Khufra")){
+                textView.setText(selectedName);
+                imageView.setImageResource(R.drawable.uranus);
+            }
         }
-
         //set value;
-
     }
 }
