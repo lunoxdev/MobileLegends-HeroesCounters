@@ -7,14 +7,13 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity"
         android:orientation="vertical"
-        android:background="@color/colorPrimaryDark">
-
+        android:background="@color/colorPrimary">
     <!-- Toolbar -->
     <androidx.appcompat.widget.Toolbar
             android:id="@+id/main_toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary">
+            android:background="@color/colorPrimaryDark">
 
         <LinearLayout
                 android:id="@+id/main_toolbar_layout"
@@ -33,7 +32,9 @@
         </LinearLayout>
 
     </androidx.appcompat.widget.Toolbar>
+
     <ImageButton
+            android:id="@+id/tank"
             android:background="@drawable/tankrole"
             android:layout_width="match_parent"
             android:layout_height="90dp"

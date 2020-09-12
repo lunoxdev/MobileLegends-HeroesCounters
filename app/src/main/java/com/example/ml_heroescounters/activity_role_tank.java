@@ -12,6 +12,7 @@ import android.os.Bundle;
 
 public class activity_role_tank extends AppCompatActivity {
 
+
     GridView gridView;
 
     String[] names = {"Baxia","Khufra","Belerick","Uranus","Hylos","Grock","Gatotkaca","Johnson","Ruby","Minotaur","Franco","Akai","Tigreal","Atlas"};
@@ -27,7 +28,9 @@ public class activity_role_tank extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         //Show activity name
-        ((TextView) findViewById(R.id.main_toolbar_title)).setText("ROLE TANK");
+        ((TextView) findViewById(R.id.main_toolbar_title)).setText("\n" +
+                "Which Hero do you want to counter?");
+
 
         //Call GridView id
         gridView = findViewById(R.id.gridView);

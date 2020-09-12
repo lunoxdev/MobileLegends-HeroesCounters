@@ -5,25 +5,27 @@
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
-            android:label="@string/actionbaractivityrole"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".activity_heroe_selected"
-                  android:parentActivityName=".activity_role_tank"
-                  android:label="@string/noactionbartitle">
-        </activity>
-        <activity
-                android:name=".activity_role_tank"
-                android:parentActivityName=".MainActivity"
-                android:label="@string/noactionbartitle">
-        </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity_splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity
+                android:name=".activity_heroe_selected"
+                android:label="@string/activityheroeinformation"
+                android:parentActivityName=".activity_role_tank">
+        </activity>
+        <activity
+                android:name=".activity_role_tank"
+                android:label="@string/activityroletank"
+                android:parentActivityName=".MainActivity">
+        </activity>
+        <activity android:name=".MainActivity">
         </activity>
     </application>
 
