@@ -10,15 +10,13 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".activity_heroe_selected"
-                  android:label="@string/actionbaractivityheroeselected"
                   android:parentActivityName=".activity_role_tank"
-                  android:theme="@style/AppTheme">
+                  android:label="@string/noactionbartitle">
         </activity>
         <activity
                 android:name=".activity_role_tank"
-                android:label="@string/actionbaractivitytank"
                 android:parentActivityName=".MainActivity"
-                android:theme="@style/AppTheme">
+                android:label="@string/noactionbartitle">
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -13,9 +14,9 @@ public class activity_role_tank extends AppCompatActivity {
 
     GridView gridView;
 
-    String[] names = {"Atlas","Baxia","Khufra","Belerick","Uranus","Hylos","Grock","Gatotkaca","Johnson","Ruby","Minotaur","Franco","Akai","Tigreal"};
-    int[] images = {R.drawable.atlas,R.drawable.baxia,R.drawable.khufra,R.drawable.belerick,R.drawable.uranus,R.drawable.hylos,R.drawable.grock,R.drawable.gatotkaca,R.drawable.johnson,R.drawable.ruby,R.drawable.minotaur,R.drawable.franco,R.drawable.akai,R.drawable.tigreal};
-    int[] imag = {R.drawable.baxia,R.drawable.atlas,R.drawable.khufra,R.drawable.belerick,R.drawable.uranus,R.drawable.hylos,R.drawable.grock,R.drawable.gatotkaca,R.drawable.johnson,R.drawable.ruby,R.drawable.minotaur,R.drawable.franco,R.drawable.akai,R.drawable.tigreal};
+    String[] names = {"Baxia","Khufra","Belerick","Uranus","Hylos","Grock","Gatotkaca","Johnson","Ruby","Minotaur","Franco","Akai","Tigreal","Atlas"};
+    int[] images = {R.drawable.baxia,R.drawable.khufra,R.drawable.belerick,R.drawable.uranus,R.drawable.hylos,R.drawable.grock,R.drawable.gatotkaca,R.drawable.johnson,R.drawable.ruby,R.drawable.minotaur,R.drawable.franco,R.drawable.akai,R.drawable.tigreal,R.drawable.atlas};
+    //int[] imag = {R.drawable.baxia,R.drawable.atlas,R.drawable.khufra,R.drawable.belerick,R.drawable.uranus,R.drawable.hylos,R.drawable.grock,R.drawable.gatotkaca,R.drawable.johnson,R.drawable.ruby,R.drawable.minotaur,R.drawable.franco,R.drawable.akai,R.drawable.tigreal,R.drawable.atlas};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,8 +26,10 @@ public class activity_role_tank extends AppCompatActivity {
         //Turn on back button on actionbar before activate in Androidmanifest.xml
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        //Call GridView id
+        //Show activity name
+        ((TextView) findViewById(R.id.main_toolbar_title)).setText("ROLE TANK");
 
+        //Call GridView id
         gridView = findViewById(R.id.gridView);
 
         CustomAdapter customAdapter = new CustomAdapter(names,images,this);
@@ -39,11 +42,9 @@ public class activity_role_tank extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 //Here is where i change heroe counter information
                 String selectedName = names[i];
-                int selectedImage = imag[i];
+                int selectedImage = images[i];
 
                 startActivity(new Intent(activity_role_tank.this,activity_heroe_selected.class).putExtra("name",selectedName).putExtra("image",selectedImage));
-
-
 
             }
 
@@ -81,23 +82,15 @@ public class activity_role_tank extends AppCompatActivity {
         @Override
         public View getView(int i, View view, ViewGroup viewGroup) {
 
-            if(view == null){
-                view = layoutInflater.inflate(R.layout.row_items, viewGroup,false);
-
-            }
+            view = layoutInflater.inflate(R.layout.row_items, viewGroup, false);
 
             TextView tvName = view.findViewById(R.id.tvName);
             ImageView imageView = view.findViewById(R.id.imageView);
 
-
             tvName.setText(imageNames[i]);
             imageView.setImageResource(imagesPhoto[i]);
-
-
 
             return view;
         }
     }
-
-
 }

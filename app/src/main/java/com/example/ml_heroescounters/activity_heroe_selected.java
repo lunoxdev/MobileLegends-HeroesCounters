@@ -3,6 +3,7 @@ package com.example.ml_heroescounters;
 import android.content.Intent;
 import android.widget.ImageView;
 import android.widget.TextView;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -18,6 +19,9 @@ public class activity_heroe_selected extends AppCompatActivity {
 
         //Turn on back button on actionbar before activate in Androidmanifest.xml
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //Show activity name
+        ((TextView) findViewById(R.id.main_toolbar_title)).setText("HEROE INFORMATION");
 
         imageView = findViewById(R.id.imageView);
         textView = findViewById(R.id.tvName);

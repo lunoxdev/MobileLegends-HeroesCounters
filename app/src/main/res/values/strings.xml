@@ -1,5 +1,4 @@
 <resources>
-    <string name="actionbaractivityrole">Mobile Legends Heroes Counters</string>
-    <string name="actionbaractivitytank">ROLE TANK</string>
-    <string name="actionbaractivityheroeselected">HEROE INFORMATION</string>
+    <string name="actionbaractivityrole">HEROES COUNTERS</string>
+    <string name="noactionbartitle"> </string>
 </resources>

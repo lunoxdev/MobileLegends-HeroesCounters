@@ -6,12 +6,37 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
 
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+        <LinearLayout
+                android:id="@+id/main_toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/main_toolbar_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/colorFond"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
     <ImageButton
             android:background="@drawable/tankrole"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="90dp"
             android:onClick="TANK"
             android:gravity="center"
             tools:ignore="MissingConstraints"/>
@@ -19,7 +44,7 @@
     <ImageButton
             android:background="@drawable/assassinrole"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="90dp"
             android:id="@+id/assasinrole"
             android:gravity="center"
             tools:layout_editor_absoluteX="0dp"
@@ -30,7 +55,7 @@
     <ImageButton
             android:background="@drawable/fighterrole"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="90dp"
             android:id="@+id/fighterrole"
             android:gravity="center"
             tools:ignore="MissingConstraints"
@@ -40,7 +65,7 @@
     <ImageButton
             android:background="@drawable/magerole"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="90dp"
             android:id="@+id/magerole"
             android:gravity="center"
             tools:ignore="MissingConstraints"
@@ -50,7 +75,7 @@
     <ImageButton
             android:background="@drawable/marksmanrole"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="90dp"
             android:id="@+id/marksmanrole"
             android:gravity="center"
             tools:ignore="MissingConstraints"
@@ -60,7 +85,7 @@
     <ImageButton
             android:background="@drawable/supportrole"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="90dp"
             android:id="@+id/supportrole"
             android:gravity="center"
             tools:ignore="MissingConstraints"
