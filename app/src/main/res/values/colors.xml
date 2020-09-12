@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimaryDark">#12162B</color>
-    <color name="colorPrimary">#171a37</color>
-    <color name="colorAccent">#03DAC5</color>
-    <color name="colorFond">#D7C7CFF3</color>
+    <color name="colorforactionbar">#12162B</color>
+    <color name="colorforback">#171a37</color>
+    <color name="colorforbackmenu">#E8171A37</color>
+    <color name="colorFond">#D7D0D8FA</color>
     <color name="blackfond">#000000</color>
+    <color name="white">#E1E1E1</color>
+
 </resources>
