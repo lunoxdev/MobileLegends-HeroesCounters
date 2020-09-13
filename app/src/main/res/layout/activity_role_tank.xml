@@ -39,6 +39,7 @@
 
     </RelativeLayout>
     <GridView
+            android:drawSelectorOnTop="true"
             android:layout_width="match_parent"
             android:layout_height="663dp"
             android:layout_marginTop="3dp"
