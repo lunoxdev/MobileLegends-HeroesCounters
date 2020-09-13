@@ -1,6 +1,7 @@
 <resources>
     <string name="actionbaractivityrole">HEROES COUNTERS</string>
-    <string name="noactionbartitle"> </string>
+    <string name="noactionbartitle"></string>
     <string name="activityroletank">ROLE TANK</string>
     <string name="activityheroeinformation">HEROE INFORMATION</string>
+    <string name="activityroleassassin">ROLE ASSASSIN</string>
 </resources>

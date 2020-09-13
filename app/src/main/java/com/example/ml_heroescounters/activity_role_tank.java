@@ -17,7 +17,6 @@ public class activity_role_tank extends AppCompatActivity {
 
     String[] names = {"Baxia","Khufra","Belerick","Uranus","Hylos","Grock","Gatotkaca","Johnson","Ruby","Minotaur","Franco","Akai","Tigreal","Atlas"};
     int[] images = {R.drawable.baxia,R.drawable.khufra,R.drawable.belerick,R.drawable.uranus,R.drawable.hylos,R.drawable.grock,R.drawable.gatotkaca,R.drawable.johnson,R.drawable.ruby,R.drawable.minotaur,R.drawable.franco,R.drawable.akai,R.drawable.tigreal,R.drawable.atlas};
-    //int[] imag = {R.drawable.baxia,R.drawable.atlas,R.drawable.khufra,R.drawable.belerick,R.drawable.uranus,R.drawable.hylos,R.drawable.grock,R.drawable.gatotkaca,R.drawable.johnson,R.drawable.ruby,R.drawable.minotaur,R.drawable.franco,R.drawable.akai,R.drawable.tigreal,R.drawable.atlas};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

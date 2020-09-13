@@ -49,6 +49,7 @@
             tools:ignore="MissingConstraints"/>
 
     <ImageButton
+            android:onClick="ASSASSIN"
             android:background="@drawable/assassinrole"
             android:layout_width="match_parent"
             android:layout_height="90dp"

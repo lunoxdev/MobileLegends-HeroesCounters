@@ -26,4 +26,10 @@ public class MainActivity extends AppCompatActivity {
         Intent activity_tank = new Intent(MainActivity.this, activity_role_tank.class);
         startActivity(activity_tank);
     }
+
+    //Activity to go to role assassin activity
+    public void ASSASSIN(View view) {
+        Intent activity_assassin = new Intent(MainActivity.this, activity_roleassassin.class);
+        startActivity(activity_assassin);
+    }
 }
