@@ -4,7 +4,6 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorforback</item>
         <item name="colorPrimaryDark">@color/colorforactionbar</item>
-        <item name="colorAccent">@color/colorforbackmenu</item>
     </style>
 
 </resources>

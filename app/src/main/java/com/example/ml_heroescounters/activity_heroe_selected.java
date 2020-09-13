@@ -22,6 +22,8 @@ public class activity_heroe_selected extends AppCompatActivity {
 
         //Show activity name
         ((TextView) findViewById(R.id.main_toolbar_title)).setText("BEST TEAMMATES");
+        ((TextView) findViewById(R.id.main_toolbar_title1)).setText("COUNTER");
+        ((TextView) findViewById(R.id.main_toolbar_title2)).setText("COUNTERED BY");
 
         imageView = findViewById(R.id.imageView);
         textView = findViewById(R.id.tvName);
