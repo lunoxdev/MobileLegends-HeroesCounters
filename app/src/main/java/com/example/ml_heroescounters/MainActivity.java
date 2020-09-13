@@ -32,4 +32,9 @@ public class MainActivity extends AppCompatActivity {
         Intent activity_assassin = new Intent(MainActivity.this, activity_roleassassin.class);
         startActivity(activity_assassin);
     }
+    //Activity to go to role assassin activity
+    public void FIGHTER(View view) {
+        Intent activity_rolefighter = new Intent(MainActivity.this, activity_rolefighter.class);
+        startActivity(activity_rolefighter);
+    }
 }

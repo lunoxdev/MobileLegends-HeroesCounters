@@ -4,4 +4,5 @@
     <string name="activityroletank">ROLE TANK</string>
     <string name="activityheroeinformation">HEROE INFORMATION</string>
     <string name="activityroleassassin">ROLE ASSASSIN</string>
+    <string name="activityrolefighter">ROLE FIGHTER</string>
 </resources>
