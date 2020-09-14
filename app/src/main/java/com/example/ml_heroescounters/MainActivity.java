@@ -32,9 +32,24 @@ public class MainActivity extends AppCompatActivity {
         Intent activity_assassin = new Intent(MainActivity.this, activity_roleassassin.class);
         startActivity(activity_assassin);
     }
-    //Activity to go to role assassin activity
+    //Activity to go to role fighter activity
     public void FIGHTER(View view) {
         Intent activity_rolefighter = new Intent(MainActivity.this, activity_rolefighter.class);
         startActivity(activity_rolefighter);
     }
+    //Activity to go to role mage activity
+    public void MAGE(View view) {
+        Intent activity_rolemage = new Intent(MainActivity.this, activity_rolemage.class);
+        startActivity(activity_rolemage);
+    }
+//    //Activity to go to role marksman activity
+//    public void MARKSMAN(View view) {
+//        Intent activity_rolemarksman = new Intent(MainActivity.this, activity_rolemarksman.class);
+//        startActivity(activity_rolemarksman);
+//    }
+//    //Activity to go to role mage activity
+//    public void MAGE(View view) {
+//        Intent activity_rolesupport = new Intent(MainActivity.this, activity_rolesupport.class);
+//        startActivity(activity_rolesupport);
+//    }
 }
