@@ -6,6 +6,6 @@
     <string name="activityroleassassin">ROLE ASSASSIN</string>
     <string name="activityrolefighter">ROLE FIGHTER</string>
     <string name="activityrolemage">ROLE MAGE</string>
-<!--    <string name="activityrolemarksman">ROLE FIGHTER</string>-->
-<!--    <string name="activityrolesupport">ROLE MAGE</string>-->
+    <string name="activityrolemarksman">ROLE MARKSMAN</string>
+    <!--    <string name="activityrolesupport">ROLE MAGE</string>-->
 </resources>

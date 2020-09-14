@@ -647,7 +647,127 @@ public class activity_heroe_selected extends AppCompatActivity {
                 textView3.setText("Layla");
                 imageView3.setImageResource(R.drawable.layla);
 
-
+                //Role Marksman
+                //75 Popol and Kupa
+            }else if(selectedName.equals("Popol and Kupa")){
+                textView.setText("Grock");
+                imageView.setImageResource(R.drawable.grock);
+                textView2.setText("Helcurt");
+                imageView2.setImageResource(R.drawable.helcurt);
+                textView3.setText("Karrie");
+                imageView3.setImageResource(R.drawable.karrie);
+                //76 Wanwan
+            }else if(selectedName.equals("Wanwan")){
+                textView.setText("Belerick");
+                imageView.setImageResource(R.drawable.belerick);
+                textView2.setText("Khufra");
+                imageView2.setImageResource(R.drawable.khufra);
+                textView3.setText("Pharsa");
+                imageView3.setImageResource(R.drawable.pharsa);
+                //77 Granger
+            }else if(selectedName.equals("Granger")){
+                textView.setText("Tigreal");
+                imageView.setImageResource(R.drawable.tigreal);
+                textView2.setText("Gusion");
+                imageView2.setImageResource(R.drawable.gusion);
+                textView3.setText("Roger");
+                imageView3.setImageResource(R.drawable.roger);
+                //78 Kimmy
+            }else if(selectedName.equals("Kimmy")){
+                textView.setText("Kaja");
+                imageView.setImageResource(R.drawable.kaja);
+                textView2.setText("Lancelot");
+                imageView2.setImageResource(R.drawable.lancelot);
+                textView3.setText("Valir");
+                imageView3.setImageResource(R.drawable.valir);
+                //79 Claude
+            }else if(selectedName.equals("Claude")){
+                textView.setText("Angela");
+                imageView.setImageResource(R.drawable.angela);
+                textView2.setText("Gatotkaca");
+                imageView2.setImageResource(R.drawable.gatotkaca);
+                textView3.setText("Akai");
+                imageView3.setImageResource(R.drawable.akai);
+                //80 Hanabi
+            }else if(selectedName.equals("Hanabi")){
+                textView.setText("Angela");
+                imageView.setImageResource(R.drawable.angela);
+                textView2.setText("Gusion");
+                imageView2.setImageResource(R.drawable.gusion);
+                textView3.setText("Zilong");
+                imageView3.setImageResource(R.drawable.zilong);
+                //81 Lesley
+            }else if(selectedName.equals("Lesley")){
+                textView.setText("Akai");
+                imageView.setImageResource(R.drawable.akai);
+                textView2.setText("Saber");
+                imageView2.setImageResource(R.drawable.saber);
+                textView3.setText("Odette");
+                imageView3.setImageResource(R.drawable.odette);
+                //82 Irithel
+            }else if(selectedName.equals("Irithel")){
+                textView.setText("Tigreal");
+                imageView.setImageResource(R.drawable.tigreal);
+                textView2.setText("Aurora");
+                imageView2.setImageResource(R.drawable.aurora);
+                textView3.setText("Gord");
+                imageView3.setImageResource(R.drawable.gord);
+                //83 Karrie
+            }else if(selectedName.equals("Karrie")){
+                textView.setText("Lolita");
+                imageView.setImageResource(R.drawable.lolita);
+                textView2.setText("Chou");
+                imageView2.setImageResource(R.drawable.chou);
+                textView3.setText("Cyclops");
+                imageView3.setImageResource(R.drawable.cyclops);
+                //84 Moskov
+            }else if(selectedName.equals("Moskov")){
+                textView.setText("Grock");
+                imageView.setImageResource(R.drawable.grock);
+                textView2.setText("Hayabusa");
+                imageView2.setImageResource(R.drawable.hayabusa);
+                textView3.setText("Fanny");
+                imageView3.setImageResource(R.drawable.fanny);
+                //85 Yin Sun-Shin
+            }else if(selectedName.equals("Yin Sun-Shin")){
+                textView.setText("Grock");
+                imageView.setImageResource(R.drawable.grock);
+                textView2.setText("Natalia");
+                imageView2.setImageResource(R.drawable.natalia);
+                textView3.setText("Estes");
+                imageView3.setImageResource(R.drawable.estes);
+                //86 Layla
+            }else if(selectedName.equals("Layla")){
+                textView.setText("Franco");
+                imageView.setImageResource(R.drawable.franco);
+                textView2.setText("Eudora");
+                imageView2.setImageResource(R.drawable.eudora);
+                textView3.setText("Chou");
+                imageView3.setImageResource(R.drawable.chou);
+                //87 Clint
+            }else if(selectedName.equals("Clint")){
+                textView.setText("Aurora");
+                imageView.setImageResource(R.drawable.grock);
+                textView2.setText("Saber");
+                imageView2.setImageResource(R.drawable.saber);
+                textView3.setText("Balmond");
+                imageView3.setImageResource(R.drawable.balmond);
+                //88 Bruno
+            }else if(selectedName.equals("Bruno")){
+                textView.setText("Ruby");
+                imageView.setImageResource(R.drawable.ruby);
+                textView2.setText("Hayabusa");
+                imageView2.setImageResource(R.drawable.hayabusa);
+                textView3.setText("Sun");
+                imageView3.setImageResource(R.drawable.sun);
+                //89 Miya
+            }else if(selectedName.equals("Miya")){
+                textView.setText("Lolita");
+                imageView.setImageResource(R.drawable.grock);
+                textView2.setText("Hayabusa");
+                imageView2.setImageResource(R.drawable.hayabusa);
+                textView3.setText("Hylos");
+                imageView3.setImageResource(R.drawable.hylos);
 
             }
             //Set value
