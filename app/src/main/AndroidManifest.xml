@@ -8,9 +8,14 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".activity_rolemarksman"
-                  android:label="@string/activityrolemarksman"
+        <activity android:name=".activity_rolesupport"
+                  android:label="@string/activityrolesupport"
                   android:parentActivityName=".MainActivity">
+        </activity>
+        <activity
+                android:name=".activity_rolemarksman"
+                android:label="@string/activityrolemarksman"
+                android:parentActivityName=".MainActivity">
         </activity>
         <activity
                 android:name=".activity_rolemage"

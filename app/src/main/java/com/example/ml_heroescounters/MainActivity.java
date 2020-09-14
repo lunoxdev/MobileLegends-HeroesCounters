@@ -47,9 +47,9 @@ public class MainActivity extends AppCompatActivity {
         Intent activity_rolemarksman = new Intent(MainActivity.this, activity_rolemarksman.class);
         startActivity(activity_rolemarksman);
     }
-//    //Activity to go to role mage activity
-//    public void MAGE(View view) {
-//        Intent activity_rolesupport = new Intent(MainActivity.this, activity_rolesupport.class);
-//        startActivity(activity_rolesupport);
-//    }
+    //Activity to go to role mage activity
+    public void SUPPORT(View view) {
+        Intent activity_rolesupport = new Intent(MainActivity.this, activity_rolesupport.class);
+        startActivity(activity_rolesupport);
+    }
 }

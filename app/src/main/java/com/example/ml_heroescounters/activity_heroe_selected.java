@@ -769,6 +769,64 @@ public class activity_heroe_selected extends AppCompatActivity {
                 textView3.setText("Hylos");
                 imageView3.setImageResource(R.drawable.hylos);
 
+                //Role Support
+                //90 Carmilla
+            }else if(selectedName.equals("Carmilla")){
+                textView.setText("Terizla");
+                imageView.setImageResource(R.drawable.terizla);
+                textView2.setText("Harith");
+                imageView2.setImageResource(R.drawable.harith);
+                textView3.setText("Karrie");
+                imageView3.setImageResource(R.drawable.karrie);
+                //91 Faramis
+            }else if(selectedName.equals("Faramis")){
+                textView.setText("Tigreal");
+                imageView.setImageResource(R.drawable.tigreal);
+                textView2.setText("Granger");
+                imageView2.setImageResource(R.drawable.granger);
+                textView3.setText("Gord");
+                imageView3.setImageResource(R.drawable.gord);
+                //92 Angela
+            }else if(selectedName.equals("Angela")){
+                textView.setText("Zilong");
+                imageView.setImageResource(R.drawable.zilong);
+                textView2.setText("Estes");
+                imageView2.setImageResource(R.drawable.estes);
+                textView3.setText("Argus");
+                imageView3.setImageResource(R.drawable.argus);
+                //93 Diggie
+            }else if(selectedName.equals("Diggie")){
+                textView.setText("Ruby");
+                imageView.setImageResource(R.drawable.ruby);
+                textView2.setText("Natalia");
+                imageView2.setImageResource(R.drawable.natalia);
+                textView3.setText("Aurora");
+                imageView3.setImageResource(R.drawable.aurora);
+                //94 Estes
+            }else if(selectedName.equals("Estes")){
+                textView.setText("Grock");
+                imageView.setImageResource(R.drawable.grock);
+                textView2.setText("Hayabusa");
+                imageView2.setImageResource(R.drawable.hayabusa);
+                textView3.setText("Karina");
+                imageView3.setImageResource(R.drawable.karina);
+                //95 Lolita
+            }else if(selectedName.equals("Lolita")){
+                textView.setText("Roger");
+                imageView.setImageResource(R.drawable.roger);
+                textView2.setText("Kagura");
+                imageView2.setImageResource(R.drawable.kagura);
+                textView3.setText("Cyclops");
+                imageView3.setImageResource(R.drawable.cyclops);
+                //96 Rafaela
+            }else if(selectedName.equals("Rafaela")){
+                textView.setText("Miya");
+                imageView.setImageResource(R.drawable.miya);
+                textView2.setText("Harley");
+                imageView2.setImageResource(R.drawable.harley);
+                textView3.setText("Natalia");
+                imageView3.setImageResource(R.drawable.natalia);
+
             }
             //Set value
         }
